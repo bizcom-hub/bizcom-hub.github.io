@@ -1,0 +1,1148 @@
+/* ======================== HEADER START ========================================= */
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+    /*     overflow-y: hidden; */
+}
+
+header {
+
+    background: url('img/bg-image2.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    min-height: auto;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 104px;
+    margin-bottom: 30px;
+    color: #1d1d1d;
+}
+
+
+header p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 54px;
+    color: #9c9d9e;
+}
+
+header .container .button-header button {
+    width: 17%;
+    min-width: 170px;
+    height: auto;
+    padding: 12px 0px;
+    background: #007d2f;
+    color: white;
+    border: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 250px;
+}
+
+header li {
+    text-transform: uppercase;
+}
+
+/* ======================== HEADER END ============================================ */
+
+
+
+/* ======================== ABOUT US START ========================================= */
+div.about-us h2 {
+    color: #191919;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+div.about-us p {
+    color: #787878;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+div.about-us img {
+
+    margin-bottom: 40px;
+    width: 25%;
+}
+
+/* ======================== ABOUT US END ============================================ */
+
+
+/* ============================PROGRESS_START======================================================= */
+.pro-progress2 {
+    width: 100%;
+    height: auto;
+
+}
+
+.col-md-6 {
+    padding-left: 0px;
+
+}
+
+.pro-progress2 img {
+    max-width: 108%;
+    height: auto;
+}
+
+.pro-padding {
+
+    padding-left: -15px;
+}
+
+.pro-progress2 .pro-progress {
+    margin-left: 15%;
+    max-width: 123%;
+    height: auto;
+
+
+}
+
+.pro-progress2 .pro-progress h4 {
+    margin-top: 25%;
+    margin-bottom: 9%;
+    font-size: 30px;
+    font-weight: 500;
+    color: #171717;
+}
+
+.pro-progress2 .pro-progress p {
+
+    margin-bottom: 3%;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.pro-progress2 .pro-progress progress {
+    height: 3px;
+    width: 95%;
+    margin-bottom: 7%;
+    color: #007d2f;
+
+}
+
+
+
+/* ============================PROGRESS_END======================================================= */
+
+/* ======================== REVIEW START ========================================= */
+.pro-review {
+    background: #007d2f;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+
+.pro-review p {
+    color: white;
+}
+
+/* ======================== REVIEW END ============================================ */
+
+
+
+/* ======================== PORTFOLIO_START ========================================= */
+
+
+.pro-port {
+    box-sizing: border-box;
+}
+
+.portfolio {
+    border: 0px solid #ccc;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.portfolio:hover::after {
+
+    transform: translateX(-50%);
+    opacity: 0.8;
+}
+
+.portfolio:hover::before {
+
+    transform: translateX(50%);
+    opacity: 0.8;
+}
+
+.portfolio::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #42885d;
+    transform: translateX(-800px);
+    opacity: 0.1;
+    transition: 500ms;
+
+}
+
+.portfolio::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #42885d;
+    transform: translateX(800px);
+    opacity: 0.1;
+    transition: 500ms;
+}
+
+
+
+
+@media only screen and (max-width: 1199px) {
+
+    .portfolio,
+    .portfolio1 {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .portfolio,
+    .portfolio1 {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
+}
+
+/* ======================== PORTFOLIO_END ============================================ */
+
+
+/* ======================== PORT-TEXT_START  ========================================= */
+.pro-port-text {
+    background: #007d2f;
+    height: 100px;
+}
+
+.pro-port-text h3 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+/* ======================== PORT_TEXT_END ============================================ */
+
+
+
+
+
+
+
+/* ======================== WORK-PROCESS_START ========================================= */
+.work-process {
+    margin-bottom: 150px;
+}
+
+.work-process h3 {
+    font-size: 44px;
+    font-weight: 400;
+    color: #191919;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 29px;
+
+}
+
+.work-process p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #808080;
+    text-align: center;
+    line-height: 33px;
+    margin-bottom: 48px;
+}
+
+.work-process video {
+    width: 80%;
+    height: auto;
+    /*     margin-bottom: 100px; */
+
+}
+
+/* ======================== WORK-PROCESS_END ============================================ */
+
+
+
+
+
+
+
+
+/* ======================== PRO-SERVICES_START========================================= */
+.pro-container-fluid {
+    background: #f5f5f5;
+    height: auto;
+}
+
+.pro-container-fluid .pro-services-row {
+    padding-top: 100px;
+}
+
+
+
+.pro-container-fluid .pro-services-row img {
+    padding-bottom: 28px;
+    color: #656565;
+}
+
+.pro-container-fluid .pro-services-row h4 {
+    padding-bottom: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #191919;
+
+}
+
+.pro-container-fluid .pro-services-row p {
+
+    color: #7b7b7b;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+/* ======================== PRO-SERVICES_END ============================================ */
+
+
+
+/* ======================== MICHAEL-REVIEW_START ========================================= */
+.carousel {
+    height: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #007d2f;
+    color: #fff;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+
+.michael {
+    background: #007d2f;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.michael p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 200px;
+}
+
+.michael h5 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+
+/* ======================== MICHAEL-REVIEW_END ============================================ */
+
+
+
+/* ======================== PARTNERS_START  ========================================= */
+.pro-partners {
+    height: auto;
+}
+
+.pro-partners img {
+    width: 129px;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* ======================== PARTNERS_END ============================================ */
+
+
+
+/* ======================== PRO-COMMENT_START  ========================================= */
+.pro-comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+.pro-comment h6 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #1d1d1d;
+    margin-bottom: 30px;
+    margin-top: 27px;
+}
+
+.pro-comment p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+    margin-bottom: 40px;
+}
+
+
+.pro-comment input.input1 {
+    width: 350px;
+    margin-bottom: 27px;
+    padding-left: 20px;
+}
+
+.pro-comment input.input2 {
+    width: 350px;
+    margin-bottom: 27px;
+    padding-left: 20px;
+}
+
+.pro-comment input.input3 {
+    width: 700px;
+    margin-bottom: 27px;
+    padding-left: 20px;
+}
+
+.pro-comment textarea {
+    width: 700px;
+    margin-bottom: 27px;
+    padding-left: 20px;
+    padding-top: 22px;
+    resize: none;
+}
+
+.pro-comment button {
+    background: #007d2f;
+    width: 160px;
+    height: 54px;
+    border: 0px;
+    margin-bottom: 100px;
+    border-radius: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+/* ======================== PRO-COMMENT_END ============================================ */
+
+
+/* ======================== FOOTER_START ========================================= */
+
+footer {
+    padding: 50px 0;
+}
+
+footer ul {
+    margin-right: 10px;
+}
+
+.pro-footer {
+    background: #141414;
+    color: #bcbcbc;
+
+
+}
+
+.pro-footer div,
+a,
+p {
+
+    color: #bcbcbc;
+}
+
+.pro-footer div,
+a:hover p:hover {
+
+    color: #bcbcbc;
+}
+
+.pro-footer div,
+a:hover {
+
+    color: #bcbcbc;
+}
+
+.pro-footer .pro-footer2 {
+    color: #bcbcbc;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.pro-footer h4 {
+    color: #bcbcbc;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 28px;
+
+}
+
+.pro-footer .pro-footer2 {
+    color: #bcbcbc;
+    font-size: 15px;
+    font-weight: 400;
+
+
+}
+
+.pro-footer .pro-footer2 a {
+    color: #bcbcbc;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 28px;
+
+}
+
+/* ======================== FOOTER_END ============================================ */
+
+
+
+
+/* ======================== MEDIA - 576 START ========================================= */
+/* ======================== MEDIA - 576 START ========================================= */
+@media (max-width: 767px) {
+
+
+
+    header h1 {
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+
+    header p {
+
+        font-size: 18px;
+        font-weight: 400;
+        padding-bottom: 70px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    header .container .button-header button {
+
+        margin-left: 39%;
+        min-width: 100px;
+
+    }
+
+
+    /* ======================== HEADER END ============================================ */
+
+
+
+    /* ======================== ABOUT US START ========================================= */
+    div.about-us h2 {
+        color: #191919;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 350px;
+        margin-bottom: 350px;
+    }
+
+    div.about-us p {
+        color: #787878;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    div.about-us img {
+
+        margin-bottom: 10px;
+        width: 25%;
+    }
+
+    /* ======================== ABOUT US END ============================================ */
+
+
+    /* ============================PROGRESS_START======================================================= */
+    .pro-progress2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .pro-progress2 img {
+        max-width: 123%;
+        height: auto;
+    }
+
+    .pro-progress2 .pro-progress {
+        margin-left: 15%;
+        max-width: 123%;
+        height: auto;
+
+
+    }
+
+    .pro-progress2 .pro-progress h4 {
+        margin-top: 18%;
+        margin-bottom: 6%;
+        font-size: 25px;
+        font-weight: 500;
+        color: #171717;
+    }
+
+    .pro-progress2 .pro-progress p {
+
+        margin-bottom: 1%;
+        color: #000000;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+    .pro-progress2 .pro-progress progress {
+        height: 2px;
+        width: 95%;
+        margin-bottom: 6%;
+        color: #007d2f;
+
+    }
+
+
+
+    /* ============================PROGRESS_END======================================================= */
+
+    /* ======================== REVIEW START ========================================= */
+    .pro-review {
+        background: #007d2f;
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .pro-review p {
+        color: white;
+        font-size: 13px;
+    }
+
+    /* ======================== REVIEW END ============================================ */
+
+
+
+
+
+    /* ======================== PORT-TEXT_START  ========================================= */
+    .pro-port-text {
+        background: #007d2f;
+        height: 100px;
+    }
+
+    .pro-port-text h3 {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 22px;
+
+    }
+
+    /* ======================== PORT_TEXT_END ============================================ */
+
+
+
+
+
+
+
+    /* ======================== WORK-PROCESS_START ========================================= */
+    .work-process {
+        margin-bottom: 30px;
+    }
+
+    .work-process h3 {
+        font-size: 24px;
+        font-weight: 400;
+        color: #191919;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 15px;
+
+    }
+
+    .work-process p {
+        font-size: 15px;
+        font-weight: 400;
+        color: #808080;
+        text-align: center;
+        line-height: 33px;
+        margin-bottom: 22px;
+    }
+
+    .work-process video {
+        width: 80%;
+        height: auto;
+    }
+
+    /* ======================== WORK-PROCESS_END ============================================ */
+
+
+
+
+
+
+
+
+    /* ======================== PRO-SERVICES_START========================================= */
+    .pro-container-fluid {
+        background: #f5f5f5;
+        height: auto;
+    }
+
+    .pro-container-fluid .pro-services-row {
+        padding-top: 30px;
+    }
+
+
+
+    .pro-container-fluid .pro-services-row img {
+        padding-bottom: 15px;
+        color: #656565;
+    }
+
+    .pro-container-fluid .pro-services-row h4 {
+        padding-bottom: 15px;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #191919;
+
+    }
+
+    .pro-container-fluid .pro-services-row p {
+
+        color: #7b7b7b;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+
+    /* ======================== PRO-SERVICES_END ============================================ */
+
+
+
+    /* ======================== MICHAEL-REVIEW_START ========================================= */
+    .michael {
+        background: #007d2f;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .michael p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+
+    .michael h5 {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    /* ======================== MICHAEL-REVIEW_END ============================================ */
+
+
+
+    /* ======================== PARTNERS_START  ========================================= */
+    .pro-partners {
+        height: auto;
+    }
+
+    .pro-partners img {
+        width: auto;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* ======================== PARTNERS_END ============================================ */
+
+
+
+    /* ======================== PRO-COMMENT_START  ========================================= */
+    .pro-comment {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background: #f5f5f5;
+    }
+
+    .pro-comment h6 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #1d1d1d;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+
+    .pro-comment p {
+        font-size: 13px;
+        font-weight: 400;
+        color: #787878;
+        margin-bottom: 15px;
+    }
+
+
+    .pro-comment input.input1 {
+        width: 350px;
+        margin-bottom: 15px;
+        padding-left: 20px;
+    }
+
+    .pro-comment input.input2 {
+        width: 350px;
+        margin-bottom: 15px;
+        padding-left: 20px;
+    }
+
+    .pro-comment input.input3 {
+        width: 350px;
+        margin-bottom: 15px;
+        padding-left: 20px;
+    }
+
+    .pro-comment textarea {
+        width: 350px;
+        margin-bottom: 15px;
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+
+    .pro-comment button {
+        background: #007d2f;
+        width: 150px;
+        height: 44px;
+        border: 0px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding-left: 20px;
+    }
+
+    /* ======================== PRO-COMMENT_END ============================================ */
+
+
+    /* ======================== FOOTER_START ========================================= */
+    .pro-footer {
+        background: #141414;
+    }
+
+    .pro-footer .pro-footer2 {
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .pro-footer .pro-footer2 h4 {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 15px;
+
+    }
+
+    .pro-footer .pro-footer2 {
+        color: #bcbcbc;
+        font-size: 15px;
+        font-weight: 400;
+
+
+    }
+
+    .pro-footer .pro-footer2 a {
+        color: #bcbcbc;
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 10px;
+
+    }
+
+
+
+}
+
+/* ======================== MEDIA - 576 END ============================================ */
+
+
+
+/* ======================== MEDIA - 768 START ========================================= */
+/* ======================== MEDIA - 768 START ========================================= */
+@media (max-width: 1199px) {
+
+
+    header h1 {
+        font-size: 26px;
+        font-weight: 400;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        color: #1d1d1d;
+    }
+
+
+    header p {
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 16px;
+        color: #9c9d9e;
+    }
+
+    header .container .button-header button {
+        width: 17%;
+        height: auto;
+        padding: 12px 0px;
+        border-radius: 3px;
+        background: #007d2f;
+        color: white;
+        border: 0px;
+        font-size: 10px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+
+    /* ======================== HEADER END ============================================ */
+
+
+
+    /* ======================== ABOUT US START ========================================= */
+    div.about-us h2 {
+        color: #191919;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    div.about-us p {
+        color: #787878;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    div.about-us img {
+
+        margin-bottom: 20px;
+        width: 25%;
+    }
+
+    /* ======================== ABOUT US END ============================================ */
+
+
+
+    /* ======================== REVIEW START ========================================= */
+    .pro-review {
+
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .pro-review p {
+
+        font-size: 15px;
+    }
+
+    /* ======================== REVIEW END ============================================ */
+
+
+
+
+    /* ======================== PORT-TEXT_START  ========================================= */
+
+    .pro-port-text h3 {
+
+        font-size: 22px;
+
+    }
+
+    /* ======================== PORT_TEXT_END ============================================ */
+
+    .pro-progress2 img {
+        max-width: 123%;
+        height: auto;
+    }
+
+
+
+
+
+    /* ======================== WORK-PROCESS_START ========================================= */
+    .work-process {
+        margin-bottom: 30px;
+    }
+
+    .work-process h3 {
+        font-size: 22px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+
+    }
+
+    .work-process p {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    .work-process video {
+        width: 80%;
+        height: auto;
+
+
+    }
+
+    /* ======================== WORK-PROCESS_END ============================================ */
+
+
+
+
+
+
+
+
+    /* ======================== PRO-SERVICES_START========================================= */
+
+
+    .pro-container-fluid .pro-services-row {
+        padding-top: 30px;
+    }
+
+
+
+    .pro-container-fluid .pro-services-row img {
+        padding-bottom: 15px;
+    }
+
+    .pro-container-fluid .pro-services-row h4 {
+        padding-bottom: 10px;
+        font-size: 12px;
+        text-transform: uppercase;
+
+
+    }
+
+    .pro-container-fluid .pro-services-row p {
+
+        font-size: 13px;
+        margin-bottom: 50px;
+    }
+
+    /* ======================== PRO-SERVICES_END ============================================ */
+
+
+
+    /* ======================== MICHAEL-REVIEW_START ========================================= */
+
+
+    .michael p {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .michael h5 {
+
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    /* ======================== MICHAEL-REVIEW_END ============================================ */
+
+
+
+
+
+
+    /* ======================== FOOTER_START ========================================= */
+
+
+    .pro-footer .pro-footer2 {
+
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+}
+
+/* ======================== MEDIA - 768 END ========================================= */
+/* ======================== MEDIA - 768 END ========================================= */
+
+
+/* ======================== MEDIA - 992 START ========================================= */
+/* ======================== MEDIA - 992 START ========================================= */
+@media (max-width: 1199px) {
+
+    header h1 {
+        font-size: 36px;
+        font-weight: 400;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        color: #1d1d1d;
+    }
+
+    .pro-progress2 img {
+        max-width: 123%;
+        height: auto;
+    }
+}
+
+/* ======================== MEDIA - 992 END ========================================= */
+/* ======================== MEDIA - 992 END ========================================= */

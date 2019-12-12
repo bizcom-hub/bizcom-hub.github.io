@@ -1,0 +1,236 @@
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+    /*     overflow-y: hidden; */
+}
+
+
+/* ======================== HEADER START ========================================= */
+
+
+header li {
+    text-transform: uppercase;
+}
+
+/* ======================== HEADER END ============================================ */
+
+
+/* ======================== REVIEW START ========================================= */
+.graphic_designer {
+    background: #007d2f;
+    color: white;
+
+
+}
+
+.graphic_designer h2 {
+    margin-top: 110px;
+    margin-bottom: 35px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #171717;
+}
+
+.graphic_designer p {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 96px;
+    line-height: 26px;
+}
+
+/* ======================== REVIEW END ============================================ */
+
+
+
+/* ======================== PORTFOLIO_START ========================================= */
+
+
+.pro-port {
+    box-sizing: border-box;
+}
+
+
+.gallery {
+    border: 0px solid #ccc;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery:hover::after {
+
+    transform: translateX(-50%);
+    opacity: 0.8;
+}
+
+.gallery:hover::before {
+
+    transform: translateX(50%);
+    opacity: 0.8;
+}
+
+.gallery::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #42885d;
+    transform: translateX(-800px);
+    opacity: 0.1;
+    transition: 500ms;
+
+}
+
+.gallery::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #42885d;
+    transform: translateX(800px);
+    opacity: 0.1;
+    transition: 500ms;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.responsive {
+    /*     padding: 0 6px; */
+    float: left;
+    width: 25%;
+}
+
+@media only screen and (max-width: 992px) {
+    .responsive {
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .responsive {
+        width: 100%;
+
+    }
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.container:hover .overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* ======================== PORTFOLIO_END ============================================ */
+
+
+
+
+
+
+
+
+
+/* ======================== FOOTER_START ========================================= */
+footer {
+    padding: 50px 0;
+}
+
+footer ul {
+    margin-right: 10px;
+}
+
+.pro-footer {
+    background: #141414;
+    color: #bcbcbc;
+
+
+}
+
+.pro-footer div,
+a,
+p {
+
+    color: #bcbcbc;
+}
+
+.pro-footer div,
+a:hover p:hover {
+
+    color: #bcbcbc;
+}
+
+.pro-footer div,
+a:hover {
+
+    color: #bcbcbc;
+}
+
+.pro-footer .pro-footer2 {
+    color: #bcbcbc;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.pro-footer h4 {
+    color: #bcbcbc;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 28px;
+
+}
+
+.pro-footer .pro-footer2 {
+    color: #bcbcbc;
+    font-size: 15px;
+    font-weight: 400;
+
+
+}
+
+.pro-footer .pro-footer2 a {
+    color: #bcbcbc;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 28px;
+
+}
+
+/* ======================== FOOTER_END ============================================ */

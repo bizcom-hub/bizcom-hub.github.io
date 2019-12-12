@@ -1,0 +1,320 @@
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+    /*     overflow-y: hidden; */
+}
+
+header li {
+    text-transform: uppercase;
+}
+
+/* ============================PROGRESS_START======================================================= */
+
+.col-md-6 {
+    padding-left: 0px;
+    max-height: 572px;
+    background: #f6f6f6;
+}
+
+.pro-progress2 img {
+    max-width: 125%;
+    height: auto;
+}
+
+.pro-progress2 .pro-progress {
+    margin-left: 15%;
+    max-width: 123%;
+    height: 400px;
+
+
+}
+
+.pro-progress2 .pro-progress h4 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 38px;
+    font-weight: 500;
+    color: #171717;
+}
+
+.pro-progress2 .pro-progress .text1 {
+
+    margin-bottom: 30px;
+    color: #787878;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+
+}
+
+.pro-progress2 .pro-progress p {
+
+
+    color: #787878;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+
+}
+
+.pro-progress2 .pro-progress span {
+
+    color: #171717;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+@media (max-width:1119px) {
+
+    .pro-progress2 .pro-progress {
+        margin-left: 15%;
+        max-width: 123%;
+        height: auto;
+
+
+    }
+
+    .pro-progress2 .pro-progress h4 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 38px;
+        font-weight: 500;
+        color: #171717;
+    }
+
+    .pro-progress2 .pro-progress .text1 {
+
+        margin-bottom: 3px;
+        color: #787878;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 20px;
+
+    }
+
+    .pro-progress2 .pro-progress p {
+
+
+        color: #787878;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 20px;
+
+    }
+
+    .pro-progress2 .pro-progress span {
+
+        color: #171717;
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+}
+
+@media (max-width:991px) {
+
+    .pro-progress2 .pro-progress {
+        margin-left: 15%;
+        max-width: 123%;
+        height: auto;
+
+
+    }
+
+    .pro-progress2 .pro-progress h4 {
+
+        /*    margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 38px;
+        font-weight: 500;
+        color: #171717; */
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        font-weight: 400;
+        color: #171717;
+    }
+
+    .pro-progress2 .pro-progress .text1 {
+
+        margin-bottom: 3px;
+        color: #787878;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 15px;
+
+
+    }
+
+    .pro-progress2 .pro-progress p {
+
+
+        color: #787878;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 15px;
+
+    }
+
+    .pro-progress2 .pro-progress span {
+
+        color: #171717;
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+}
+
+@media (max-width:767px) {
+
+    .pro-progress2 .pro-progress {
+        margin-left: 15%;
+        max-width: 123%;
+        height: auto;
+
+
+    }
+
+    .pro-progress2 .pro-progress h4 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 38px;
+        font-weight: 500;
+        color: #171717;
+    }
+
+    .pro-progress2 .pro-progress .text1 {
+
+        margin-bottom: 3px;
+        color: #787878;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 20px;
+
+    }
+
+    .pro-progress2 .pro-progress p {
+
+
+        color: #787878;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 20px;
+
+    }
+
+    .pro-progress2 .pro-progress span {
+
+        color: #171717;
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+}
+
+/* ============================PROGRESS_END======================================================= */
+
+
+
+
+/* ======================== PORT-TEXT_START  ========================================= */
+.pro-port-text {
+    background: #007d2f;
+    height: 100px;
+}
+
+.pro-port-text h3 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    
+
+}
+
+@media (max-width:767px) {
+
+
+}
+    /* ======================== PORT_TEXT_END ============================================ */
+
+
+
+
+
+
+    /* ======================== FOOTER_START ========================================= */
+    footer {
+        padding: 50px 0;
+        background: #141414;
+
+    }
+
+    footer ul {
+        margin-right: 10px;
+    }
+
+    footer .attention1,
+    .attention2 {
+        background: #141414;
+    }
+
+
+    .pro-footer {
+        background: #141414;
+        color: #bcbcbc;
+
+
+    }
+
+    .pro-footer div,
+    a,
+    p {
+
+        color: #bcbcbc;
+    }
+
+    .pro-footer div,
+    a:hover p:hover {
+
+        color: #bcbcbc;
+    }
+
+    .pro-footer div,
+    a:hover {
+
+        color: #bcbcbc;
+    }
+
+    .pro-footer .pro-footer2 {
+        color: #bcbcbc;
+        padding-top: 100px;
+        padding-bottom: 90px;
+    }
+
+    .pro-footer h4 {
+        color: #bcbcbc;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 28px;
+
+    }
+
+    .pro-footer .pro-footer2 {
+        color: #bcbcbc;
+        font-size: 15px;
+        font-weight: 400;
+
+
+    }
+
+    .pro-footer .pro-footer2 a {
+        color: #bcbcbc;
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 28px;
+
+    }
+
+    /* ======================== FOOTER_END ============================================ */
